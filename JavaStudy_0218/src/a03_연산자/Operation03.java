@@ -12,7 +12,17 @@ public class Operation03 {
 		System.out.println(result);
 		boolean result1 = num1 < num2 ? true:false;
 		System.out.println(result1);
+		
+		int score = 59;
+		char grade = score > -1 && score <101 ? 
+					 score >89 ? 'A':
+						 score >79 ?'B':
+							 score > 69 ? 'C':
+								 score > 59? 'D':
+									 score > -1? 'F' :' '
+										 :'X';
+									 System.out.println("등급은:"+ grade);
 
 	}
 
-}
+}	
